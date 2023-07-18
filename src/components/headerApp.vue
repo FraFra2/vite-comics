@@ -50,11 +50,7 @@ export default {
 </script>
 
 <template>
-    <div>
-        <header class = "
-                        py-8
-                        flex justify-between items-center">
-            
+        <header class = "py-6 w-[70%] flex justify-between items-center">
             <div class = "logo-cont">
                 <img src="../assets/dc-logo.png" alt="">
             </div>
@@ -68,7 +64,7 @@ export default {
                                 uppercase
                                 hover:text-[#0082f9] hover:underline
                                 decoration-8
-                                underline-offset-[69px]
+                                underline-offset-[61px]
                                 ">
                         <a :href = "link.ref" >{{link.label}}</a>
                     </li>
@@ -76,7 +72,6 @@ export default {
 
             </div>
         </header>
-    </div>
 </template>
 
 <style scoped>

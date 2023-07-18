@@ -9,14 +9,14 @@ export default {
 </script>
 
 <template>
-    <div>
         <main class = "
                         bg-[#1c1c1c] 
                         py-16
                         text-white">
+          <div class = "w-[70%] mx-auto">
             Content Goes Here! &lt;--   
+          </div>
         </main>
-    </div>
 </template>
 
 <style scoped>
