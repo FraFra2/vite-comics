@@ -50,7 +50,7 @@ export default {
 </script>
 
 <template>
-        <header class = "py-6 w-[70%] flex justify-between items-center">
+        <header class = "py-6 w-[70%] mx-auto flex justify-between items-center">
             <div class = "logo-cont">
                 <img src="../assets/dc-logo.png" alt="">
             </div>
@@ -72,10 +72,17 @@ export default {
 
             </div>
         </header>
+        
+        <div class = "jumbo h-80 overflow-hidden">
+            <img src="src/assets/jumbotron.jpg" class = "overflow-hidden">
+        </div>
+
 </template>
 
 <style scoped>
 
-
+.jumbo {
+    
+}
 
 </style>

@@ -24,7 +24,7 @@ export default{
     <bodyApp/>
 
     <mainNavApp/>
-
+    
     <footerApp/>
   </div>
 
